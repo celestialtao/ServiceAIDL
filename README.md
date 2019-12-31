@@ -2,7 +2,7 @@
  **app中（包含AppService）**
 * 1、首先创建AppService 继承自Service类
 * 2、重写类中对应的方法，在onBind()方法中进行如下的复写
-  *IAppServiceRemoteBinder是已完成创建的AIDL文件，Stub及为其接口，其中的两个方法在文件中设置*
+  **IAppServiceRemoteBinder是已完成创建的AIDL文件，Stub及为其接口，其中的两个方法在文件中设置**
 
 * 3、创建AILD文件：先创建Package包AIDL -> 创建 AIDL文件
 **anotherapp中**

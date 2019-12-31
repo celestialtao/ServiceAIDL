@@ -6,6 +6,7 @@
   **IAppServiceRemoteBinder是已完成创建的AIDL文件，Stub及为其接口，其中的两个方法在文件中设置**
 
 * 3、创建AILD文件：先创建Package包AIDL -> 创建 AIDL文件
+
 **anotherapp中**
 * 1、创建AIDL文件：创建Package包AIDL -> 创建 AIDL文件（通过复制app中的aidl文件）
 * 2、创建活动，并包含一个**AIDL对象**，并实现ServiceConnection接口，并复写其中的抽象方法
